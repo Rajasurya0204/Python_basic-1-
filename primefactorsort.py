@@ -1,5 +1,5 @@
 n=int(input())
-i=1
+z=1
 while(z<=n):
     k=0
     if(n%z==0):
