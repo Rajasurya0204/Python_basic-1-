@@ -1,9 +1,13 @@
-n = int(input())
-i = 2
-while i * i < n:
-     while n % i == 0:
-         n = n / i
-     i = i + 1
-
-print (int(n))
-
+n=int(input())
+i=1
+while(z<=n):
+    k=0
+    if(n%z==0):
+        j=1
+        while(j<=z):
+            if(z%j==0):
+                k=k+1
+            j=j+1
+        if(k==2):
+            print(z)
+    z=z+1
